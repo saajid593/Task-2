@@ -1,0 +1,121 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins";
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.leftBox{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 100%;
+    padding: 20px;
+}
+
+.profile{
+    width: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+}
+
+/* this is for contact box */
+
+.cnt {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.Right-Box{
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff9f9; */
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #ff7700;
+    font-weight: bold;
+    height: 450px;
+    width: 90%;
+}
+
+.Skill {
+    /* background-color: #853838; */
+    width: 96%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.heading {
+    height: 15%;
+    /* background-color: #fff; */
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #ff7700;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   /* background-color: #b19292; */
+   height: 100%;
+   width: 100%;
+}
+
+.skls {
+    height: 95%;
+    width: max-content;
+    margin-right: 20px;
+    font-size: 18px;
+    /* background-color: #7c5d5d; */
+    padding-top: 12px;
+    border: 4px solid #ff7700;
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+    color: #ff7700;
+}
+
+.skls:hover {
+    background-color: #ff7700;
+    color: #fff;
+    
+}
+
+.hd {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    text-align: justify;
+    width: 310px;
+    margin: 12px;
+    /* color: #ff0000; */
+}
+
+
+
+
+
